@@ -1,0 +1,53 @@
+<script>
+    //user -data in javascript variable
+    // var uid=1,uname="devil",uemail="devil@gmail.com"
+
+    //JAVASCRIPT_Functions
+    //Function name() {-----}
+    //var variable=function() {-----}
+    //var variable=() => {-----}
+
+    //js-variables inside functions
+    //function name(){var variable=value}
+
+    //js-function with arguments
+    // function name (argument){.....arrgument}->name[value]
+    
+    //class-declaration &Body
+    class user{
+        //class-properties/variables
+        uid=1
+        uname="devil"
+        uemail="devil@gmail.com"
+
+        //Class-Methods /Functions
+        Myfun1(request){
+            var msg=request
+            return `${msg}<br />`
+        }
+        Myfun2=function(request){
+            var msg=request
+            return `${msg}<br />`
+        }
+        Myfun3=(request)=>{
+            var msg=request
+            return `${msg}<br />`
+        }
+    }
+    //object of the class
+    //var object Name=new className
+    var u = new user
+    document.write(`<h3>Class Properties Data:</h3>
+    
+                    UID is:${u.uid}<br />
+                    UNAME is:${u.uname}<br />
+                    UEMAIL is:${u.uemail}<br />                
+                  `)
+    document.write(`<h3> Class Methods Data:</h3>
+                  
+    ${u.Myfun1("Named Function with Argument")}<br />
+    ${u.Myfun2("Call back Function with Argument")}<br />
+    ${u.Myfun3("Arrow Function with Argument")}<br />
+    `)
+                  
+</script>

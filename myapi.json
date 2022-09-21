@@ -1,0 +1,75 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "uname": "Devil",
+      "email": "devil@gmail.com",
+      "phone": 9876543211
+    },
+    {
+      "id": "2",
+      "uname": "Manu",
+      "email": "manu@gmail.com",
+      "phone": 9876543212
+    },
+    {
+      "id": "3",
+      "uname": "Ramu",
+      "email": "ramu@gmail.com",
+      "phone": 9876543213
+    },
+    {
+      "id": "4",
+      "uname": "Chandu",
+      "email": "chandu@gmail.com",
+      "phone": 9876543214
+    },
+    {
+      "id": "5",
+      "uname": "Harsha",
+      "email": "harsha@gmail.com",
+      "phone": 9876543215
+    },
+    {
+      "id": "6",
+      "uname": "Jitendra",
+      "email": "jitendra@gmail.com",
+      "phone": 9876543216
+    },
+    {
+      "id": "7",
+      "uname": "Murali",
+      "email": "murali@gmail.com",
+      "phone": 9876543217
+    }
+  ],
+  "bookings": [
+    {
+      "sno": 1,
+      "Datebooking": "10-09-2022",
+      "product": "MI-MOBILE"
+    },
+    {
+      "sno": 2,
+      "Datebooking": "18-09-2022",
+      "product": "REALME"
+    }
+  ],
+  "admins": [
+    {
+      "sno": 1,
+      "uname": "devil1",
+      "mobile": 7815643290
+    },
+    {
+      "sno": 2,
+      "uname": "devil2",
+      "mobile": 9867453210
+    },
+    {
+      "sno": 3,
+      "uname": "devil3",
+      "mobile": 7645892301
+    }
+  ]
+}

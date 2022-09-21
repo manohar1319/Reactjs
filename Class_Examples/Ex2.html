@@ -1,0 +1,39 @@
+<script>
+    //JAVASCRIPT_Functions
+    //Function name() {-----}
+    //var variable=function() {-----}
+    //var variable=() => {-----}
+
+    //class_declaration &Body
+    class user {
+        //claas-properties/variables
+        uid = 1
+        uname = "devil"
+        uemail = "devil@gmail.com"
+        //class-methods/functions
+        Myfun1() {
+            return `Named Functions In Class without Function keyword <br />`
+        }
+        Myfun2 = function () {
+            return `ANANEMOUS Functions In Class without Function keyword <br />`
+        }
+        Myfun3 = () => {
+            return `Arrow Function In Class without Function keyword <br />`
+        }
+    }
+    //object of the class
+    //var object Name=new className
+    var u = new user
+    document.write(`<h3>Class Properties Data:</h3><br />
+    
+                    UID is:${u.uid}<br />
+                    UNAME is:${u.uname}<br />
+                    UEMAIL is:${u.uemail}<br />                
+                  `)
+    document.write(`<h3> Class Methods Data:</h3><br />
+
+                    ${u.Myfun1()}<br />
+                    ${u.Myfun2()}<br />
+                    ${u.Myfun3()}<br />
+                `)              
+</script>
